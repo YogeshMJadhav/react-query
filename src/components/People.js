@@ -1,21 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useQuery } from 'react-query';
+import AddPeople from './AddPeople';
 import PeopleView from './PeopleView';
 
-const fetchPeople = async () => {
-    const res = await fetch('https://swapi.dev/api/people')
+async function fetchPeople(){
+    const res = await fetch('http://localhost:4000/student')
     return res.json();
 }
 
 const People = () => {
-    const {data, status} = useQuery('people', fetchPeople);
-    console.log(data);
+    const [peopleOpen, setPeopleOpen] = useState(false);
+    const {data, status} = useQuery(['people'], fetchPeople);
+    console.log('data', data);
     return(
         <div className="row">
             <h3>People</h3>
             { status === 'loading' && <div> Loading data... </div>}
             { status === 'error' && <div> Error fetching data. </div>}
-            { status === 'success' && data.results.map(people => <PeopleView key={people.name} people={people} /> )}
+            { status === 'success' && data.map(people => <PeopleView key={people.name} people={people} /> )}
         </div>
     )
 }

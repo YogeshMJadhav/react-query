@@ -1,19 +1,52 @@
 {
-  "posts": [
+  "student": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Baldev",
+      "address": "Pune"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Trushant",
+      "address": "Sangamner"
+    },
+    {
+      "id": 3,
+      "name": "Akshay",
+      "address": "Pune"
+    },
+    {
+      "id": "2021-02-15T11:29:30.508Z",
+      "name": "Dipak",
+      "address": "Bombay"
+    },
+    {
+      "id": "2021-02-15T11:36:32.379Z",
+      "name": "Akshay",
+      "address": "Pune"
+    },
+    {
+      "title": "Test",
+      "id": 4
+    },
+    {
+      "name": "Test 2",
+      "id": 5
+    },
+    {
+      "name": "r",
+      "address": "",
+      "id": 6
+    },
+    {
+      "name": "Manju",
+      "address": "Pune",
+      "id": 7
+    },
+    {
+      "name": "Test ",
+      "address": "Mumbai",
+      "id": 8
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

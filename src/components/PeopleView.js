@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PeopleView = ({ people }) => {
+const PeopleView = ({ people  }) => {
     return(
         <div>
             <span>Name: {people.name}</span>
-            <p>Gnder: {people.gender }</p>
-            <p>Birth year: {people.birth_year} </p>
+            <p>Address: {people.address }</p>
+            {/* <p>Birth year: {people.birth_year} </p> */}
         </div>
     )
 }
