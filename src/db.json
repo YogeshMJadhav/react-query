@@ -6,11 +6,6 @@
       "address": "Pune"
     },
     {
-      "id": 2,
-      "name": "Trushant",
-      "address": "Sangamner"
-    },
-    {
       "id": 3,
       "name": "Akshay",
       "address": "Pune"
@@ -30,23 +25,9 @@
       "id": 4
     },
     {
-      "name": "Test 2",
-      "id": 5
-    },
-    {
-      "name": "r",
-      "address": "",
-      "id": 6
-    },
-    {
       "name": "Manju",
       "address": "Pune",
       "id": 7
-    },
-    {
-      "name": "Test ",
-      "address": "Mumbai",
-      "id": 8
     }
   ]
 }
