@@ -1,33 +1,9 @@
 {
   "student": [
     {
-      "id": 1,
-      "name": "Baldev",
-      "address": "Pune"
-    },
-    {
-      "id": 3,
-      "name": "Akshay",
-      "address": "Pune"
-    },
-    {
-      "id": "2021-02-15T11:29:30.508Z",
-      "name": "Dipak",
-      "address": "Bombay"
-    },
-    {
-      "id": "2021-02-15T11:36:32.379Z",
-      "name": "Akshay",
-      "address": "Pune"
-    },
-    {
-      "title": "Test",
-      "id": 4
-    },
-    {
-      "name": "Manju",
-      "address": "Pune",
-      "id": 7
+      "name": "pravin.ivision@gmail.com",
+      "address": "1234567890",
+      "id": 2
     }
   ]
 }

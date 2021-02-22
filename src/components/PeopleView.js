@@ -1,12 +1,14 @@
 import React from 'react'
-import { useMutation } from 'react-query';
+import { useMutation, useQueryClient} from 'react-query';
 import { removeStudent } from '../services/delete';
 
 const PeopleView = ({ people }) => {
+    const queryClient = useQueryClient();
     const { mutateAsync, isLoading, isSuccess, isError} = useMutation(removeStudent);
 
     const remove = async () => {
         await mutateAsync(people.id)
+        queryClient.invalidateQueries('people')
     }
 
     return(

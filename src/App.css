@@ -30,6 +30,12 @@
   color: #61dafb;
 }
 
+.testHeader {
+  margin-left: 35%;
+  margin-top: 25px;
+  text-align: inherit;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

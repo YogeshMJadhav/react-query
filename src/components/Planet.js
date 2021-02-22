@@ -29,7 +29,6 @@ const Planet = () => {
                     data.results.map(planet => <PlanetView key={ planet.name} planet={planet} />)
                  }
         </div>
-        // <AddMutation />
     )
 }
 
